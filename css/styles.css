@@ -1,0 +1,144 @@
+
+:root {
+    --primary-text-color: #757575;
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --primary-black-color: #2E2F42;
+    --logo-blue:#4D5AE5;
+    --logo-black:#2E2F42;
+    --text-white-opacity:  rgba(255,255,255,0.6);
+    --text-primary-white: #ffff;
+    --button-primary-hover: #188ce8;
+    --button-portfolio-normal: #E7E9FC;
+    --button-portfolio-hover: #404BBF;
+    --primary-hover-color:  #4D5AE5; 
+    --button-filter: #fff;
+    --background-black: #2f303a; 
+    --background-grey: #f5f4fa;
+    --hero-background:  #2E2F42;
+
+}
+
+body {
+    
+    list-style: none;
+    color: var(--primary-black-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+
+.logo {
+
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: var(--logo-black)
+    
+
+}
+
+.logo-blue {
+
+    color:var(--logo-blue)
+}
+
+ul li a {
+
+    text-decoration: none;
+}
+
+.header-ctas {
+
+    list-style: none;
+}
+
+.header-navigator-item {
+
+    list-style: none;
+}
+
+
+
+.header-navigator-menu {
+
+    text-decoration-line: none;
+}
+
+.features-items {
+
+    list-style: none;
+}
+
+.wawd-items {
+
+    list-style: none;
+}
+
+.our-team-menu {
+
+    list-style: none;
+}
+
+.categories-item {
+    list-style: none;
+}
+
+.images-menu {
+    list-style: none;
+}
+
+.header-navigator-item :hover {
+    
+    color: var(--primary-hover-color)
+    
+}
+
+.header-navigator-item-ctas :hover {
+    color: var(--primary-hover-color)
+}
+
+.button-item {
+
+    background-color: var(--button-portfolio-normal);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.button-item:hover {
+    color: var(--button-filter);
+    background-color: var(--button-portfolio-hover);
+    cursor: pointer;
+}
+
+
+.order-service {
+    color: var(--button-filter);
+    background-color: var(--primary-hover-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+
+.order-service:hover {
+    color: var(--button-filter);
+    background-color: var(--button-portfolio-hover);
+    border-radius: 0%;
+    border-color: none;
+    cursor: pointer;
+}
+
+.hero {
+
+    color: var(--text-primary-white);
+    background-color: var(--hero-background);
+    margin: 0;
+    
+}
+
+.image-title-item {
+    font-weight: 500;
+}
+
+
