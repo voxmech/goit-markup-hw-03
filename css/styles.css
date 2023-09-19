@@ -39,6 +39,8 @@ body {
 .logo {
 
   
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
     list-style: none;
     font-family: 'Raleway', sans-serif;
@@ -141,6 +143,21 @@ ul li a {
     cursor: pointer;
 }
 
+.hero {
+
+    color: var(--text-primary-white);
+    background-color: var(--hero-background);
+    margin: 0;
+    
+    
+}
+
+.hero-container {
+
+    background-color: var(--hero-background);
+    margin:s
+
+}
 
 .order-service {
     color: var(--button-filter);
@@ -158,13 +175,7 @@ ul li a {
     cursor: pointer;
 }
 
-.hero {
 
-    color: var(--text-primary-white);
-    background-color: var(--hero-background);
-    margin: 0;
-    
-}
 
 .image-title-item {
     font-weight: 500;
