@@ -154,7 +154,11 @@ ul li a {
 .hero-container {
 
     background-color: var(--hero-background);
-    margin:s
+    height: 600px;
+    weight: 1440px;
+   
+    
+    
 
 }
 
@@ -174,7 +178,13 @@ ul li a {
     cursor: pointer;
 }
 
+.features-items {
 
+    display:flex;
+    flex-direction: row;
+
+    
+}
 
 .image-title-item {
     font-weight: 500;
