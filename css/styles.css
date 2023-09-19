@@ -38,7 +38,8 @@ body {
 
 .logo {
 
-  
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
     list-style: none;
     font-family: 'Raleway', sans-serif;
