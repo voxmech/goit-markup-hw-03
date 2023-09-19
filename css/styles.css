@@ -137,7 +137,7 @@ ul li a {
     background-color: var(--button-portfolio-normal);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-
+   
 }
 .button-item:hover {
     color: var(--button-filter);
@@ -148,7 +148,6 @@ ul li a {
 .hero {
 
     color: var(--text-primary-white);
-    background-color: var(--hero-background);
     margin: 0;
     
     
@@ -157,18 +156,20 @@ ul li a {
 .hero-container {
 
     background-color: var(--hero-background);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: content-box;
+    width: 1440px;
     height: 600px;
-    weight: 1440px;
+    
 
-    text-align: center;
-
-
-   
 }
 
 .hero-motto {
 
-    align-items: center;
+    text-align: center;
+    padding-top: 300px;
 }
 
 .order-service {
@@ -176,6 +177,7 @@ ul li a {
     background-color: var(--primary-hover-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    
     
 }
 
@@ -186,7 +188,7 @@ ul li a {
     border-color: none;
     cursor: pointer;
 
-    align-items: center;
+
 }
 
 .features-items {
