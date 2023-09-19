@@ -39,8 +39,6 @@ body {
 .logo {
 
   
-    display: inline-flex;
-    align-items: center;
     text-decoration: none;
     list-style: none;
     font-family: 'Raleway', sans-serif;
@@ -80,7 +78,7 @@ body {
 
     list-style: none;
     display: inline-flex;
-    padding-left: 320px;
+    padding-left: 332px;
 }
 
 .header-navigator-item-ctas {
