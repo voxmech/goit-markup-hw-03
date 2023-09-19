@@ -72,6 +72,8 @@ body {
     list-style: none;
     display: inline-flex;
     padding-right: 40px;
+    
+
 
 }
 
@@ -80,6 +82,7 @@ body {
     list-style: none;
     display: inline-flex;
     padding-left: 332px;
+    
 }
 
 .header-navigator-item-ctas {
@@ -156,10 +159,16 @@ ul li a {
     background-color: var(--hero-background);
     height: 600px;
     weight: 1440px;
-   
-    
-    
 
+    text-align: center;
+
+
+   
+}
+
+.hero-motto {
+
+    align-items: center;
 }
 
 .order-service {
@@ -176,6 +185,8 @@ ul li a {
     border-radius: 0%;
     border-color: none;
     cursor: pointer;
+
+    align-items: center;
 }
 
 .features-items {
