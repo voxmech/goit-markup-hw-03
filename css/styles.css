@@ -174,18 +174,15 @@
   .footer-container {
     background-color: var(--hero-background);
     display: flex;
-    align-items: center;
-    flex-direction: column;
     box-sizing: content-box;
-    height: 600px;
-    margin: auto;
+    height: 312px;
+    
   }
-  
-  .footer-item p{
-    column-count: 3;
-    column-gap: 25px;
-    display: grid;
-    padding-top: 200px;
+
+  .footer {
+    color: var(--text-primary-white);
+    margin: 0;
+    text-align: start;
   }
   
   .features-items {
